@@ -64,8 +64,24 @@ val.pop(2) # It will remove the element at 2nd index of array
 val.pop() # It will remove the last element of array
 val.remove(25) # It will remove the first occurrence of 25 from array
 
+
+# Slicing 
 # When we want to slice an array
 print('\n')
 sliced_array = val[2:5] # It will create a slice of array from 2nd to 4th index
 for x in sliced_array:
     print(x, end=' ')
+
+# When we wanted to slice an array where we don't want the end 2 elements of array
+print('\n')
+sliced_array2 = val[1:3] # It will create a slice of array from 1st to 2nd index
+for x in sliced_array2:
+    print(x, end=' ')
+
+# When we wanted to reverse the sliced array
+print('\n')
+sliarr = val[::-1] # It will create a slice of array from last to first index
+for x in sliarr:
+    print(x, end=' ')
+
+    
