@@ -84,4 +84,21 @@ sliarr = val[::-1] # It will create a slice of array from last to first index
 for x in sliarr:
     print(x, end=' ')
 
-    
+# When we wanted to take input from user and create an array
+print('\n')
+a1 = array('i', [])
+n = int(input("Enter the number of elements: "))
+for i in range(0, n):
+    a1.append(int(input("Enter the element: ")))
+
+for x in a1:
+    print(x, end=' ')
+
+
+# When we wanted to search an element in array
+print('\n')
+ 
+a2 = array('i', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+i = a2.index(5) # It will return the index of first occurrence of 5 in array
+print(i)
+
